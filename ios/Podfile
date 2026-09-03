@@ -17,6 +17,8 @@ end
 target 'Snake' do
   config = use_native_modules!
 
+  pod 'snakegame-native', :path => '../shared'
+
   use_react_native!(
     :path => config[:reactNativePath],
     # An absolute path to your application root.

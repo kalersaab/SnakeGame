@@ -1,0 +1,15 @@
+{
+  "name": "snakegame-native",
+  "version": "0.0.1",
+  "description": "Native module for Snake Game",
+  "main": "index.js",
+  "homepage": ".",
+  "private": true,
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
